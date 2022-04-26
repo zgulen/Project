@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up project</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="başlık">
+        <h1>NET<span>FLIX</span></h1><br>
+        <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+    </div> 
+    <div class="kapsayıcı">
+        
+        <div class="container">
+            
+            <form action="index.html">
+                
+                <div class="cont">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <label for="age">Age</label>
+                    <input type="number" max="100" min="18" placeholder="Age">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your E-mail">
+                </div>
+                <label for="content" id="seri">Content type</label>
+                <select name="series" id="type">
+                        <option value="Series">Series</option>
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Psychology">Psychology</option>
+                        <option value="Romance">Romance</option>
+                </select>
+                <label for="movies" id="movie">Movie Types
+                    <label for="movies"><input type="checkbox" name="Action" id="movies" >
+                    Action</label>
+                    <label for="movies"><input type="checkbox" name="Comedy" id="movies">
+                    Comedy</label>
+                    <label for="movies"><input type="checkbox" name="Drama" id="movies">
+                    Drama</label>
+                </label>
+                <label for="gender" id="gend">Gender
+                    <label for="gender"><input type="radio" name="male" id="gender">
+                    Male</label>
+                    <label for="gender"><input type="radio" name="female" id="gender">
+                    Female</label>
+                </label>
+                <label for="feed" id="fed">Feed Back
+                    <textarea name="feedback" id="feed" placeholder="Any comments"></textarea>
+                </label>
+                <label for="submit">
+                    <input type="submit" value="Submit" id="submit">
+                </label>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

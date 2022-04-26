@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(images/background_image.jpg);
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.322);
+    align-items: center;
+    /* display: inline-flex; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* width: 360px;
+    padding: 20px; */
+}
+.container form{
+    align-items: center;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.849);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.cont input{
+    margin: 6px 0;
+    padding: 8px 0;
+}
+
+.container form .cont input{
+    display: block;
+    width: 350px;
+    
+    /* margin: auto; */
+}
+.container form select{
+    display: block;
+}
+
+.container form label label{
+    display: flex;
+    padding: 0px 0;
+}
+
+.container form label textarea{
+    display: block;
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+.container form label textarea::-webkit-input-placeholder {padding: 10px;}
+#submit{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 110px;
+    padding: 8px;
+    background: red;
+    border-radius: 50px;
+    color: white;
+    border-style: none;
+}
+
+.container form #movie{
+    display: block;
+    padding: 10px 0;
+}
+
+.başlık{
+    align-items: center;
+    position:absolute;
+    text-align: center;
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    padding-bottom: 800px;
+    margin-top: 10px;
+    padding-right: 35%;
+    padding-left: 35%;
+    width: 500px;
+}
+.başlık p{
+    text-align: center;
+}
+
+.başlık h1 span{
+    color: red;
+}
+
+.container form #gend{
+    display: block;
+    margin-bottom: 10px;
+}
+#fed textarea{
+    display: block;
+    margin-top: 5px;
+}
+
+.container form #type{
+    display: block;
+    width: 330px;
+    padding: 8px 10px 8px;
+    text-align: justify;
+}
+.container form #seri{
+    display: block;
+    padding: 5px 0;
+}
+
+/* .kapsayıcı{
+    margin: 50%;
+    background-color: rgba(0, 0, 0, 0.377);
+} */
